@@ -1896,22 +1896,24 @@ html, body {
 
     <!-- Audio Element -->
 <audio loop id="backgroundMusic" muted>
-  <source src="billy.mp3" type="audio/mpeg" />
+  <source src="billy1.mp3" type="audio/mpeg" />
   Your browser does not support the audio element.
 </audio>
     
 
     <div class="status-container" id="statusContainer">
         <div class="status-header">
-            <div class="avatar-container">
-              <img
-                id="avatar"
-                class="avatar"
-                src="/api/placeholder/256/256"
-                alt="Avatar"
-              />
-              <div class="status-indicator"></div>
-            </div>
+<div class="avatar-container">
+  <img
+    id="avatar"
+    class="avatar"
+    src="/api/placeholder/256/256"
+    alt="Avatar"
+    onerror="this.onerror=null; this.src='https://cdn.discordapp.com/embed/avatars/0.png';"
+  />
+  <div class="status-indicator"></div>
+</div>
+
 
             <div class="username">
              ᴀᴋɪ
